@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.header_nav{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: black;
+}
+
+.header_nav_right{
+    display: flex;
+    flex-flow: center flex-end;
+    font-size: 1.5rem;
+}
+
+.header_nav_right li{
+    list-style: none;
+    margin: 10px;
+}
+
+.header_nav_right_menu{
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    width: 25px;
+    background-size: contain;
+    height: 25px;
+}
+.header_nav_right_photo{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+}
+
+main{
+    margin: 150px; 
+    text-align: center;
+}
+
+.main-logo{
+    width: 320px;
+    height: 110px;
+    margin: auto auto;
+    margin-bottom: 35px;
+    background-image: url("./580b57fcd9996e24bc43c51f.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.main-input{
+    margin: 0 auto;
+    width: 530px;
+    margin-bottom: 35px;
+}
+
+.main-input-container{
+    border-radius: 100px;
+    width: 525px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e7e9ec;
+}
+
+.main-input input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+
+.main-input-container:hover{
+    box-shadow: 1px 2px 3px #20212447;
+    border-color: #e7e9ec;
+    
+}
+
+.search-icon{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: left ;
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+
+.micro-icon{
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.main-button div{
+    display: inline-block;
+}
+
+.main-button button{
+    background-color: #f8f9fa;
+    height:36px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    min-width: 54px;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.main-button button:hover{
+    box-shadow: 1px 2px 3px #20212447;
+    border-color: black;
+}
+
+footer{
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 30px;
+    display: grid;
+    position: absolute;
+    grid-template-columns: 1fr 1fr;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer_left li{
+    list-style: none;
+    margin: 10px;
+    margin-bottom: 30px;
+}
+
+.footer_left{
+    margin-left: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: left;
+}
+
+.footer_right li{
+    margin: 10px;
+}
+
+.footer_right{
+    margin-right: 20px;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+}
+
+footer a{
+    color: #70757a;
+}
